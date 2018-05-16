@@ -1,0 +1,49 @@
+img{
+  width: 100px;
+}
+h4, h3, h2, p{
+  margin:0;
+}
+
+button{
+  width: 20%;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.food-list{
+  flex-direction: column;
+  flex: 1;
+}
+.food-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.food-item{
+  display:flex;
+  flex-direction: row;  
+  margin: 15px 0;
+  border: 1px solid gray;
+  width: 40%;
+  height: 100px;
+  align-items: center;
+}
+
+.food-image{
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.food-info{
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.todaysFoodAndCalories{
+  margin-bottom: 20px;
+}
